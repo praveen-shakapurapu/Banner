@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(#eec4c4,#d0f59f);
+}
+.content{
+    width: 850px;
+    height: 130em;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.logs{
+    display: flex;
+    justify-content: space-around;
+}
+.content .img{
+    width: 200px;
+    height: 100px;
+}
+.content h1{
+    font-family: "Poppins", sans-serif;
+}
+.content .logoimg1{
+    height: 100px;
+}
+.content .logoimg2{
+    height: 100px;
+}
+.imagephoto{
+    width: 850px;
+    box-shadow: 0px 10px 10px rgb(26, 25, 25);
+    animation: animation1 4s ease-in-out infinite;
+}
+@keyframes animation1{
+    0%{
+        border-radius: 50% / 60%;
+    }
+    50%{
+        border-radius: 100% / 120px;
+    }
+    100%{
+        border-radius: 50% / 60px;
+    }
+    150%{
+        border-radius: 100% / 120px;
+    }
+}
+
+.healthcare{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 20px;
+    
+}
+.health{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid rgb(102, 80, 80);
+    background-color: transparent;
+    transition: 5s ease-in-out ;
+}
+.health:hover{
+    background-color: #e8e9e8;
+    border-radius: 50px;
+}
+.health p{
+    font-size: 20px;
+    text-align: center;
+}
+.health img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image h6{
+    font-size: 20px;
+    padding-top: 200px;
+    padding-right: 400px;
+}
+.image h1{
+    padding: 30px;
+    color: #8ecf13;
+}
+.cont{
+    padding: 500px;
+}
+section{
+    height: 135em;
+}
+.text{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.text h1{
+    background-color: #3d3d3c;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 600px;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+.text h3,h5{
+    padding: 10px;
+    font-size: 20px;
+}
+.text h6{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 8px;
+}
+
+.container-display{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+.section-box{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px black;
+    background-color: #4b516b;
+    padding: 30px;
+    width: 230px;
+    height: 120px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.section-box:hover{
+    cursor: pointer;
+    transition: 4s ease-in-out;
+    background-color: #2993eb;
+    border-radius: 30%;
+}
+.section-box .middle{
+    margin: auto;
+}
+.section-box p{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.contentdown{
+    background-color: #e8e9e8;
+    height: 130px;
+    text-align: center;
+    padding: 40px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 50px;
+}
+.contentdown:hover{
+    background-color: #dad9d2;
+    cursor:  pointer;
+    transition: 2s ease-in-out ;
+}
+.contentdown h3{
+    font-size: 20px;
+    color: #0a0e13;
+    text-align: justify;
+}
+.contentdown p{
+    font-size: 20px;
+    color: #ce364f;
+}
+.banner{
+    background-color: #81d631;
+    padding: 30px;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+}
+.location{
+    text-align: center;
+    background-color: white;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #ebe1e3;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+.bluebanner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bluebanner h3{
+    font-size: 20PX;
+}
+.text h1{
+    font-size: 20px;
+}
+.text p{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text p span{
+    color: #3636c9;
+    font-size: 20px;
+}
+h1{
+    color: black;
+}
+.i{
+    width: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* .box{
+    padding-top: 50px;
+    border: none;
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(231, 213, 213);
+    border-radius: 50%;
+    background-image: url('../Assets/Mafatlal\ Industries\ Kids_2494.jpg');
+    object-fit: cover;
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 5s ease-in-out infinite;
+} */
+@keyframes animate {
+    /* 0%{
+        border-radius: 50% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 30% 40% 30% 70% / 60% 30% 70% 40%;
+    } */
+    
+    /* 0%{
+        border-radius: 50% / 60%;
+    }
+    50%{
+        border-radius: 100% / 120px;
+    }
+    100%{
+        border-radius: 50% / 60px;
+    } */
+}
+.logo img{
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 50%;
+}
+.container{
+    padding-top: 10px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    width: 500px;
+    height: 10px;
+    /* box-shadow: 0 20px 5px 5px  rgba(0, 0, 0, 0.2);
+    animation: animates 4s ease-in-out infinite; */
+}
+.container h1{
+    color: blueviolet;
+}
+/* @keyframes animates{
+    50%{
+        width: 400px;
+        background: transparent;
+    }
+    75%{
+        width: 500px;
+        background: linear-gradient(#e0a882,#aac3d8);
+        background: transparent;
+
+    }
+    100%{
+        width: 600px;
+        background: linear-gradient(#dde972,#6ab0df);
+        background: transparent;
+
+    }
+} */
+
+
+.container:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+.container h1{
+    text-align: center;
+    font-size: 45px;
+    color: #e2382c;
+    animation: animation ease-in-out infinite;
+
+}
+.container h1:hover{
+    color: black;
+    
+}
+span {
+    color: black;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    /* section{
+        height: 140em;
+        width: 130%;
+    } */
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 950px){
+    section{
+        height: 140em;
+        width: 150%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 850px){
+    section{
+        height: 140em;
+        width: 150%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 750px){
+    section{
+        height: 140em;
+        width: 100%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 550px){
+    section {
+        height: 150em;
+        width: 260%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section {
+        height: 150em;
+        width: 260%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    section {
+        height: 150em;
+        width: 300%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 300px){
+    
+    section {
+        height: 130em;
+        width: 400%;
+    }
+    .content{
+        margin: auto;
+    }
+}
+
+
+
+
+/* .wrapper{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg,#b3e3e4 5%, #a7f1cf 50%);
+    position: absolute;
+}
+.wrapper div{
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 60px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: animate 4s linear infinite;
+}
+div .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+.wrapper div :nth-child(1){
+    top: 20%;
+    left: 20%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div :nth-child(2){
+    top: 60%;
+    left: 80%;
+    animation:animate 10s linear infinite;
+}
+.wrapper div :nth-child(3){
+    top: 40%;
+    left: 40%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div :nth-child(3){
+    top: 20%;
+    left: 20%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div :nth-child(4){
+    top: 66%;
+    left: 30%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div :nth-child(5){
+    top: 90%;
+    left: 10%;
+    animation:animate 9s linear infinite;
+}
+.wrapper div :nth-child(6){
+    top: 30%;
+    left: 60%;
+    animation:animate 10s linear infinite;
+}
+.wrapper div :nth-child(7){
+    top: 70%;
+    left: 20%;
+    animation:animate 6s linear infinite;
+}
+.wrapper div :nth-child(8){
+    top: 75%;
+    left: 60%;
+    animation:animate 6s linear infinite;
+}
+.wrapper div :nth-child(9){
+    top: 50%;
+    left: 50%;
+    animation:animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(70deg);
+    }
+} */
